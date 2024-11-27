@@ -9,7 +9,7 @@ import logo from "./peakflo_logo.jpeg";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/Project-Board">
       <DndProvider backend={HTML5Backend}>
         <CssBaseline />
         <Container
@@ -31,8 +31,8 @@ const App = () => {
             <Box
               sx={{
                 display: "flex",
-                alignItems: "center", 
-                gap: 0.5, 
+                alignItems: "center",
+                gap: 0.5,
                 marginBottom: 3,
               }}
             >
@@ -49,7 +49,7 @@ const App = () => {
                   style={{
                     width: "100%",
                     height: "100%",
-                    objectFit: "cover", 
+                    objectFit: "cover",
                   }}
                 />
               </Box>
